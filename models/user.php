@@ -9,11 +9,11 @@ class user extends model{
     function login($us,$pass)
     {
         $user =  $this->setquery('SELECT * FROM `quantri` WHERE trangthai!=0 and tendangnhap=?')->loadrow([$us]);
-        if(password_verify($pass,$user->matkhau))
+        if($user && password_verify($pass,$user->matkhau))
         {
             return $user;
-        }
-        return false;
+        }else
+            return false;
     }
 
     function isExist($ten)

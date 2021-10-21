@@ -108,7 +108,7 @@
 		if(repMail)
 		{
 			html+=`<div class="col-md-8">
-			<a href="http://localhost/mvc/index.php?controller=mail&action=reply&id=`;
+			<a href="http://localhost/Admin_Php/index.php?controller=mail&action=reply&id=`;
 			html+=mail.id;
 			html+=`" class="btn btn-sm btn-primary" type="button"><i class="fa fa-reply"></i> Reply</a>
 
@@ -117,7 +117,7 @@
 			<p class="date mr-3"> `;
 			html+= mail.created_at;
 			html+= `</p>
-            <a type="button" data-toggle="tooltip" data-placement="left" title="Chuyển vào thùng rác" onclick="return confirm('Bạn chắc có muốn xóa dòng đã chọn?')" href="http://localhost/mvc/index.php?controller=mail&action=delete&id=`;
+            <a type="button" data-toggle="tooltip" data-placement="left" title="Chuyển vào thùng rác" onclick="return confirm('Bạn chắc có muốn xóa dòng đã chọn?')" href="http://localhost/Admin_Php/index.php?controller=mail&action=delete&id=`;
             html+=mail.id;
             html+=`"><i style="font-size: 20px; margin-left:10%" class="fa fa-trash text-danger"></i></a>`;
 			html+=`</div>`;

@@ -80,7 +80,7 @@ Examples:
 
 ATTENTION: The trailing slash is required.
 */
-$baseDir = 'C:\xampp\htdocs\mvc\public\assets\img/'; //resolveUrl($baseUrl);
+$baseDir = 'C:\xampp\htdocs\Admin_Php\public\assets\img/'; //resolveUrl($baseUrl);
 
 /*
  * ### Advanced Settings

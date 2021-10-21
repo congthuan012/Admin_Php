@@ -32,7 +32,7 @@
     <link href="public/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
 <!-- ckeditor -->
 <script>
-    var PUBLIC = 'http://localhost:81/mvc/public/ckeditor/';
+    var PUBLIC = 'http://localhost/Admin_Php/public/ckeditor/';
 </script>
 <script src="public/ckeditor/ckeditor/ckeditor.js"></script>
 <script src="public/ckeditor/ckfinder/ckfinder.js"></script>

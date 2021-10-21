@@ -34,7 +34,7 @@ function href($controller='hethong',$action='index',$params=[])
     foreach ($params as $key => $value) {
         $ext .="&$key=$value";
     }
-    return "http://localhost/mvc/index.php?controller={$controller}&action={$action}{$ext}";
+    return "http://localhost/Admin_Php/index.php?controller={$controller}&action={$action}{$ext}";
 }
 
 function asset($href)
